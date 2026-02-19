@@ -137,3 +137,12 @@ docker exec -it liquidsoap /bin/sh
 docker compose restart liquidsoap
 ```
 **What you see**: Docker will cleanly shut down and restart just the **liquidsoap** container without touching the **Icecast** server. This command is particularly helpful because you can run this to update all the songs that **liquidsoap** can see.
+
+
+Now if you reload your `radio.html` webpage, you should see your new radio stations being picked up.
+
+## Conclusion
+If you're able to see your radio stations listed on the `radio.html` you've successfully used Docker to deploy your own radio stations! Liquidsoap can render almost any audio file, so go ahead and drop anything you've got into your playlist folders. 
+
+### Want more?
+Try experimenting with `radio.liq` and `icecast.xml` to modify your broadcasts. Try implementing [crossfading](https://www.liquidsoap.info/doc-dev/crossfade.html) into your audio broadcasts. You can also try changing the streaming codec of Icecast into something more universal like AAC or lightweight like OGG.
