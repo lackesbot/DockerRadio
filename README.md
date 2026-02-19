@@ -112,7 +112,7 @@ explorer.exe ..\\Website\\radio.html
 
 ## 4. Exploring Docker (Under the Hood)
 
-Our Makefile acts as a helpful wrapper, but it's important to know the actual Docker commands running the show.
+Our Makefile acts as a helpful wrapper, but it's important to know the actual Docker commands being used.
 
 Make sure your terminal is inside the DockerRadio/Radio folder (where the docker-compose.yml file lives) and that your station is currently running. Try running these commands to see how Docker operates:
 #### Check Running Containers
