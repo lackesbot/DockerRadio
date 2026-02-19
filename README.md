@@ -163,7 +163,6 @@ docker compose down
 ```
 **What you see**: Docker will cleanly shut down the containers and remove the radio_net virtual network. **This is how you should shut down your radio**. (You can also use `make down` as provided.)
 
-Now if you reload your `radio.html` webpage, you should see your new radio stations being picked up.
 
 ## Conclusion
 If you're able to see your radio stations listed on the `radio.html` you've successfully used Docker to deploy your own radio stations! Liquidsoap can render almost any audio file, so go ahead and drop anything you've got into your playlist folders. 
