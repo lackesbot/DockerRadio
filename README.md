@@ -92,19 +92,19 @@ docker compose restart liquidsoap
 This will restart the **liquidsoap** container, so it can see the newly added music. Now open up `Website/radio.html` with a browser of your choice. You can also do this through the command line:  
 **Mac:**
 ```zsh
-open ../../../Website/radio.html
+open ../Website/radio.html
 ```
 **Linux:**
 ```bash
-xdg-open ../../../Website/radio.html
+xdg-open ../Website/radio.html
 ```
 **Windows (PowerShell/Terminal):**
 ```bash
-start ..\..\..\Website\radio.html
+start ..\Website\radio.html
 ```
 **Windows (WSL):**
 ```bash
-explorer.exe ..\\..\\..\\Website\\radio.html
+explorer.exe ..\\Website\\radio.html
 ```
 
 --------------
